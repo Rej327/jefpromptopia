@@ -3,12 +3,29 @@
 @tailwind utilities;
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-.main  {
-    width: auto;
+.main {
+	width: auto;
+	color: rgb(32, 32, 32);
 }
 
+.app {
+	padding: 0 1rem;
+}
+
+.gradient_text {
+	background: linear-gradient(
+		90deg,
+		rgba(0, 36, 24, 1) 0%,
+		rgba(9, 121, 24, 1) 63%,
+		rgba(52, 255, 0, 1) 100%
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	color: transparent;
+}
